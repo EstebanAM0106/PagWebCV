@@ -1,0 +1,81 @@
+/* Configuración base */
+:root {
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-color: #f1f5f9;
+  --accent-color: #38bdf8;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 1rem;
+  background: #0f172a;
+}
+
+nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 12px;
+}
+
+h2 {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+}
+
+/* Galería de Hobbies (Layout moderno) */
+.hobby-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.hobby-item img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Botones */
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--accent-color);
+  color: var(--bg-color);
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}

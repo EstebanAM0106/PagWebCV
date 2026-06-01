@@ -117,3 +117,56 @@ a.button {
 .social-links img:hover {
   transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
 }
+
+#criptografia p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+#criptografia img {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+/* Contenedor principal de contacto para alinear todo horizontalmente */
+#contacto {
+  display: flex;
+  flex-direction: column; /* Mantiene el título arriba y lo demás debajo */
+  gap: 15px;
+}
+
+/* Alinea los botones de CV y Llave Pública en fila */
+.contact-grid {
+  display: flex;
+  flex-direction: row; /* Fuerza la horizontalidad */
+  flex-wrap: wrap; /* Permite que bajen si la pantalla es muy pequeña */
+  gap: 20px;
+}
+
+/* Alinea los iconos sociales en fila */
+.social-links {
+  display: flex;
+  flex-direction: row; /* Fuerza la horizontalidad */
+  gap: 15px;
+  align-items: center;
+}
+
+/* Mejora los enlaces para que se vean como botones */
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  background: #334155;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+}
+.contact-item {
+  display: flex;
+  align-items: center; /* Alinea icono y texto verticalmente */
+  gap: 10px; /* Espacio entre el icono y el correo */
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
